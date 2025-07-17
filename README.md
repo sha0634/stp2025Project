@@ -80,13 +80,3 @@ recipe-generator/
 └── README.md              # This file
 ```
 
-
-
-
-
-## Acknowledgments
-
-- [Spoonacular API](https://spoonacular.com/food-api) for recipe data
-- [Tailwind CSS](https://tailwindcss.com/) for styling
-- [Lucide Icons](https://lucide.dev/) for beautiful icons
-- [Render](https://render.com/) for hosting platform
