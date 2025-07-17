@@ -59,16 +59,7 @@ This will start:
 - Frontend: http://localhost:5173
 - Backend: http://localhost:3001
 
-## Deployment on Render
 
-1. **Create a new Web Service** on Render
-2. **Connect your repository**
-3. **Use these build settings**:
-   - Build Command: `npm run install:all && npm run build`
-   - Start Command: `npm start`
-4. **Add environment variables**:
-   - `SPOONACULAR_API_KEY`: Your Spoonacular API key
-   - `NODE_ENV`: `production`
 
 ## Project Structure
 
@@ -89,67 +80,9 @@ recipe-generator/
 └── README.md              # This file
 ```
 
-## API Endpoints
 
-### Recipe Search
-- `GET /api/recipes/search?ingredients=chicken,rice` - Search recipes by ingredients
-- `GET /api/recipes/:id` - Get detailed recipe information
-- `GET /api/recipes/random` - Get random recipes
 
-### Recipe Management
-- `POST /api/recipes/:id/rate` - Rate a recipe (1-5 stars)
 
-### Grocery Lists
-- `POST /api/grocery-list/generate` - Generate grocery list from recipe IDs
-
-### Health Check
-- `GET /api/health` - API health status
-
-## Features in Detail
-
-### Recipe Search
-- Search by available ingredients
-- Smart ranking based on ingredient matches
-- Beautiful grid layout with hover effects
-- Detailed recipe modals with instructions
-
-### Recipe Management
-- Save favorite recipes locally
-- Rate recipes with star system
-- View saved recipes in dedicated tab
-- Remove recipes from favorites
-
-### Grocery List
-- Generate from selected recipes
-- Add custom items manually
-- Check off completed items
-- Progress tracking
-- Clear completed items
-
-### Dark Mode
-- System preference detection
-- Smooth transitions
-- Persistent theme selection
-- Consistent color scheme
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Support
-
-For issues and questions:
-1. Check the [Issues](https://github.com/your-repo/issues) page
-2. Create a new issue if needed
-3. Include detailed reproduction steps
 
 ## Acknowledgments
 
