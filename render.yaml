@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: recipe-generator
+    env: node
+    plan: free
+    buildCommand: npm run install:all && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SPOONACULAR_API_KEY
+        sync: false
+    autoDeploy: false
