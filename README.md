@@ -1,6 +1,6 @@
 # Recipe Generator + Grocery List
 
-A beautiful, modern web application that helps you discover recipes based on available ingredients and generates organized grocery lists. Built with React frontend and Express backend, designed for deployment on Render.
+A beautiful, modern web application that helps you discover recipes based on available ingredients and generates organized grocery lists. Built with React frontend and Express backend.
 
 ## Features
 
